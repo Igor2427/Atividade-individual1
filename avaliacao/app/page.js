@@ -1,11 +1,19 @@
 export default function Home() {
   return (
-    <h1>
-      <div style={{ textAlign: "center", marginBottom: "20px" }}>
-        <img src="/assets/images/Foto.jpg" width="500" height="500" />
-      </div>
+    
+      <div style={{ display: "flex",
+      alignItems: "flex-start",
+      padding: "20px",
+      gap: "20px",}}>
+  <img
+    src="/assets/images/Foto.jpg"
+    style={{ width: "250px",
+    height: "250px",
+    objectFit: "cover",
+    borderRadius: "8px" }}/>
+
       
-      <table border="1">
+      <table border="1" style={{ borderCollapse: "collapse" }}>
         <caption> Mini-Biografia </caption>
         <tbody>
         <tr><th> Nome </th><th> idade</th></tr>
@@ -13,7 +21,7 @@ export default function Home() {
         <tr><th colSpan="2">Nasci no estado de Pernambuco na cidade de Recife,gosto de Quebra-Cabeças, Video-Games e Ler, sou mais reservado e as vezes me perco nos meus pensamentos.</th></tr>
       </tbody>
       </table>
-    </h1>
+    </div>
 
   );
 }

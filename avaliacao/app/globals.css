@@ -1,6 +1,10 @@
 :root {
   --background: #ffffff;
   --foreground: #171717;
+  --color-bg: #0a192f; 
+  --color-text: #e6f1ff; 
+  --color-accent: #64ffda; 
+  --color-border: #112240;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -33,6 +37,23 @@ body {
 a {
   color: inherit;
   text-decoration: none;
+}
+
+body {
+  background-color: var(--color-bg);
+  color: var(--color-text);
+  font-family: var(--font-geist-sans, sans-serif);
+  margin: 0;
+  padding: 0;
+}
+
+table {
+  border-color: var(--color-border);
+}
+
+caption {
+  color: var(--color-accent);
+  font-weight: bold;
 }
 
 @media (prefers-color-scheme: dark) {
