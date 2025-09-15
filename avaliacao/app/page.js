@@ -14,12 +14,25 @@ export default function Home() {
 
       
       <table border="1" style={{ borderCollapse: "collapse" }}>
-        <caption> Mini-Biografia </caption>
+        <caption style={{ captionSide: "top", fontWeight: "bold", padding: "8px" }}>
+          Mini-Biografia
+        </caption>
         <tbody>
-        <tr><th> Nome </th><th> idade</th></tr>
-        <tr><th> Igor G </th><th> 20</th></tr>
-        <tr><th colSpan="2">Nasci no estado de Pernambuco na cidade de Recife,gosto de Quebra-Cabeças, Video-Games e Ler, sou mais reservado e as vezes me perco nos meus pensamentos.</th></tr>
-      </tbody>
+          <tr>
+            <th style={{ padding: "8px", textAlign: "left" }}>Nome: Igor Gabriel Lira Uchôa</th>
+          </tr>
+          <tr>
+            <th style={{ padding: "8px", textAlign: "left" }}>Idade: 20</th>
+          </tr>
+          <tr>
+            <th style={{ padding: "8px", textAlign: "left" }}>Sobre</th>
+          </tr>
+          <tr>
+            <td style={{ padding: "8px", textAlign: "justify" }}>
+              Nasci no estado de Pernambuco na cidade de Recife, gosto de Quebra-Cabeças, Video-Games e Ler, sou mais reservado e às vezes me perco nos meus pensamentos.
+            </td>
+          </tr>
+        </tbody>
       </table>
     </div>
 
