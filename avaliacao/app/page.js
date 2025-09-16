@@ -15,7 +15,7 @@ export default function Home() {
       
       <table border="1" style={{ borderCollapse: "collapse" }}>
         <caption style={{ captionSide: "top", fontWeight: "bold", padding: "8px" }}>
-          Mini-Biografia
+          Currículo
         </caption>
         <tbody>
           <tr>
@@ -25,13 +25,23 @@ export default function Home() {
             <th style={{ padding: "8px", textAlign: "left" }}>Idade: 20</th>
           </tr>
           <tr>
-            <th style={{ padding: "8px", textAlign: "left" }}>Sobre</th>
+            <th style={{ padding: "8px", textAlign: "left" }}>Sobre:</th>
           </tr>
           <tr>
             <td style={{ padding: "8px", textAlign: "justify" }}>
-              Nasci no estado de Pernambuco na cidade de Recife, gosto de Quebra-Cabeças, Video-Games e Ler, sou mais reservado e às vezes me perco nos meus pensamentos.
+              Nasci no estado de Pernambuco na cidade de Recife, me formei no colégio Damas da instrução Cristã no ano de 2022 e atualmente estou cursando o curso de Ciencia da computação na Unicap(5 periodo)
+
             </td>
           </tr>
+          <tr>
+            <th style={{ padding: "8px", textAlign: "left" }}>Tecnologias:</th>
+          </tr>
+          <tr>
+            <td style={{ padding: "8px", textAlign: "justify" }}>
+              Python,Java,C,Css.
+
+            </td>
+             </tr>
         </tbody>
       </table>
     </div>
